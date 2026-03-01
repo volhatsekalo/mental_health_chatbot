@@ -1,16 +1,14 @@
-# Master's Thesis Project: Mental Health Support Chatbot
+# Master's Thesis Project: A Comparative Study of Fine-Tuning Methods: LoRA vs Partial Fine-Tuning of Polish Large Language Model using Psychological dataset
 
 ## Overview
 
-This project focuses on creating **a chatbot that provides mental health tips to users** in a friendly and supportive tone. The goal is to design a system that offers **personalized mental health advice based on the user's input**. The chatbot will simulate human behavior and cognitive processes, aiming to help users manage their mental health through gentle suggestions and information.
+This project focuses on comparing **LoRA vs Partial Fine-tuning** in fitting Large Language Model Bielik to a psychological domain, creating **a model that provides mental health support to users** in a friendly and supportive tone. The goal is to design a system that follow **Cognitive Behavioral Therapy principles**. The chatbot will simulate human behavior and cognitive processes, aiming to help users manage their mental health through gentle suggestions and information.
 
 ### Features (Expected)
 
-- **Personalized Advice**: The chatbot **adapts** its responses based on the **user's tone and emotional state**.
 - **Friendly Tone**: The model is designed to engage in a friendly manner, ensuring a **comfortable interaction**.
 - **Mental Health Tips**: Users can receive advice and suggestions on **managing stress, anxiety, and other mental health issues**.
-- **Cognitive Modeling**: The chatbot will be based on cognitive science principles to simulate human-like interactions.
-
+- **Cognitive Behavioral Therapy based**: the model is trained on Cactus dataset, that was **approved by the professionals**
 ## Prototype
 
 The initial design of the application has been developed using Figma. Below are some screenshots of the prototype:
@@ -28,14 +26,8 @@ The initial design of the application has been developed using Figma. Below are 
 
 - **Base Model**: Polish LLM ``Bielik`` (for the core model architecture and pre-trained weights)
 - **AI Framework**: ``PyTorch`` (for model development and fine-tuning)
-- **Frontend**: ``React.js`` (for the user interface)
-- **Backend**: ``Node.js, Express.js`` (for handling requests and logic)
-- **Database**: ``MongoDB`` (for storing user data and chatbot interactions)
-- **Styling**: ``CSS, Bootstrap``
 
 ## Future Work
-Fine-tuning a language model to simulate human-like interactions and cognitive processes:
-
 Implementing Reinforcement Learning with Human Feedback (RLHF) for improving chatbot responses.
 
 Enhancing the safety and accuracy using safety fine-tuning.

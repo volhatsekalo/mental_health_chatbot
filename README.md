@@ -4,7 +4,7 @@
 
 This project focuses on comparing **LoRA vs Partial Fine-tuning** in fitting Large Language Model Bielik to a psychological domain, creating **a model that provides mental health support to users** in a friendly and supportive tone. The goal is to design a system that follow **Cognitive Behavioral Therapy principles**. The chatbot will simulate human behavior and cognitive processes, aiming to help users manage their mental health through gentle suggestions and information.
 
-### Features (Expected)
+### Features
 
 - **Friendly Tone**: The model is designed to engage in a friendly manner, ensuring a **comfortable interaction**.
 - **Mental Health Tips**: Users can receive advice and suggestions on **managing stress, anxiety, and other mental health issues**.
